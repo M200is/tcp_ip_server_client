@@ -1,0 +1,8 @@
+﻿  server.cpp
+C:\Users\M200i\source\repos\TCPIP\TCPIP_server\server.cpp(41,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\M200i\source\repos\TCPIP\TCPIP_server\server.cpp(44,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TCPIP_server.vcxproj -> C:\Users\M200i\source\repos\TCPIP\x64\Release\TCPIP_server.exe

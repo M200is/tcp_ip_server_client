@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TCPIP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  server.cpp
+C:\Users\M200i\source\repos\TCPIP\TCPIP_server\server.cpp(41,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\M200i\source\repos\TCPIP\TCPIP_server\server.cpp(44,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TCPIP_server.vcxproj -> C:\Users\M200i\source\repos\TCPIP\x64\Debug\TCPIP_server.exe

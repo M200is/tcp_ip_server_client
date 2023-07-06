@@ -1,0 +1,4 @@
+﻿  client.cpp
+C:\Users\M200i\source\repos\TCPIP\TCPIP_client\client.cpp(58,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\M200i\source\repos\TCPIP\TCPIP_client\client.cpp(61,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TCPIP_client.vcxproj -> C:\Users\M200i\source\repos\TCPIP\x64\Debug\TCPIP_client.exe
