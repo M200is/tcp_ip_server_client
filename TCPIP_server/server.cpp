@@ -17,7 +17,7 @@ int main() {
 	WSAStartup(MAKEWORD(2, 2), &wsaData);	//시작
 
 	SOCKET hListen;		//핸들
-	hListen = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);	//IPv6, 연결지향형, TCP
+	hListen = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);	//IPv4, 연결지향형, TCP
 
 	SOCKADDR_IN tListenAddr = {};
 	tListenAddr.sin_family = AF_INET;		//소켓 구성요소
