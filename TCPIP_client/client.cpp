@@ -36,7 +36,7 @@ int main() {
 	WSAStartup(MAKEWORD(2, 2), &wsaData);	//시작
 
 	SOCKET hSocket;		//핸들
-	hSocket = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);	//IPv6, 연결지향형, TCP
+	hSocket = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);	//IPv4, 연결지향형, TCP
 
 	SOCKADDR_IN tAddr = {};
 	tAddr.sin_family = AF_INET;		//소켓 구성요소
